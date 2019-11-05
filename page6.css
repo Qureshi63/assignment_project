@@ -1,0 +1,68 @@
+.x
+{
+    border: 0px solid white;
+    margin-left: 50px;
+}
+.y 
+{
+    width: 100px;
+}
+.z
+{
+    margin-left: 160px;
+}
+.sidenav 
+{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sidenav a 
+{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}  
+.sidenav a:hover 
+{
+    color: #f1f1f1;
+}
+.main 
+{
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    background-color: lightgray;
+    height: 350px;
+    width:1000px;
+}    
+.main1 
+{
+    margin-left: 160px; 
+    font-size: 40px; 
+    background-color: lightgray;
+    height: 100px;
+    width:1103px;
+}
+label
+{
+    color: black;
+    font-size: 15px;
+}
+h2
+{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+.o
+{
+    background: transparent;
+}

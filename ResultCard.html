@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+    <style>
+    </style>
+    <link href="html.css" rel="stylesheet">
+</head>
+<body class="resultcard">
+        <div class="topnav">
+                <h1>University</h1>
+                <a class="u1" href="http://localhost:8080/assignment_project/student_login.php">Logout</a>
+                <a class="u1" href="http://localhost:8080/assignment_project/profile.html">Profile</a>
+                <a class="u1" href="http://localhost:8080/assignment_project/ResultCard.html">Result Card</a>
+                <a class="u1" href="http://localhost:8080/assignment_project/Fees.html">Fees</a> 
+                <a class="u1" href="http://localhost:8080/assignment_project/Registeration.html">Registration Card</a>
+                <a class="u1" href="http://localhost:8080/assignment_project/student2pg.php">Dashboard</a> 
+            </div>
+        <div class="heading">
+                <h1>Student Result Card</h1>
+        </div>
+    <div class="outer">
+        <div>
+            <form action="ResultR.php" method="POST">
+                    <table >
+                            <div>
+                                <table>
+                                        <tr>
+                                                <th>RegNo</th>
+                                                <td><input type="text" name="RegNo" placeholder="RegNo" /></td>
+                                            </tr>
+                                            <tr>
+                                                <th>Name:</th>
+                                                <td><input type="text" name="Name" placeholder="Name" /></td>
+                                            </tr>
+                                            <tr>
+                                                <th>Semester</th>
+                                                <td><input type="text" name="Semester" placeholder="Semester" /></td>
+                                            </tr>
+                                            <tr>
+                                                    <th>Program</th>
+                                                    <td><input type="text" name="Program" placeholder="Program" /></td>
+                                            </tr>
+                                </table>
+                            </div>
+                            <div class="inner"> 
+                                <table>
+                                    <tr>
+                                            <th>CourseNo</th>
+                                            <td><input type="text" name="CourseNo" placeholder="CourseNo" /></td>
+                                    </tr>
+                                    <tr>
+                                            <th>CourseTitle</th>
+                                            <td><input type="text" name="CourseTitle" placeholder="CourseTitle" /></td>
+                                    </tr>
+                                     <tr>
+                                            <th>Credit</th>
+                                            <td><input type="text" name="Credit" placeholder="Credit" /></td>
+                                     </tr>
+                                     <tr>
+                                            <th>Marks</th>
+                                            <td><input type="text" name="Marks" placeholder="Marks" /></td>
+                                     </tr>
+                                     <tr>
+                                            <th>LG</th>
+                                            <td><input type="text" name="LG" placeholder="LG" /></td>
+                                     </tr>
+                                     <tr>
+                                            <th>GP</th>
+                                            <td><input type="text" name="GP" placeholder="GP" /></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        <div>
+                            <table>
+                                    <tr>
+                                            <th class="gpa">CGP</th>
+                                            <td><input type="text" name="CGP" placeholder="CGP" /></td>
+                                    </tr>
+                                    <tr>
+                                            <td><button type="submit">submit</button></td>
+                                            <td><a href="resultretrive.php"><button type="button">retrive</button></a></td>
+                                            <td><a href="resultD.php"><button type="button">Delete Record</button></a></td>
+                                            <td><a href="resultU.php"><button type="button">Update Record</button></a></td>
+
+
+                        
+                                        </tr>
+                            </table>
+                        </div>
+            </form>
+        </div>
+    </div>
+</body>

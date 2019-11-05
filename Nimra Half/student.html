@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  #grad1 
+  {
+  height: 200px;
+      background: linear-gradient(to bottom, #ffccff 0%, #ff9999 100%);
+, rgba(255,0,0,1)); /* Standard syntax (must be last) */
+}
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+@media screen and (max-width: 400px){.content {
+  display: flex;
+  background-color: #ff9999 ;
+}}
+
+
+.content > div {
+  background-color: #ff9999;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+.sms
+{
+  
+  padding: 30px;
+  font-size: 30px;
+  margin: 10px;
+
+}
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+      <a class="active" href="#home">Home</a>
+       <a href="Registeration.html"> Dashboard</a>
+        <a href="Registeration.html"> Registration Card</a>
+        <a href="Fees.html">Fees</a>
+        <a href="ResultCard.html">Result Card</a>
+        <a href="profile.html">Profile</a>
+        <a href="student.html">logout</a>
+</div>
+<div id="grad1">    
+     <strong><center><h2 class="sms">Student Management System</h2></center></strong> 
+</div>
+<div class="content">
+    <div class="ts">Total Student</div>
+    <div class="tt">Total Teachers</div>
+    </div>
+
+
+</body>
+</html>

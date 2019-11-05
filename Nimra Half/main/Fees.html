@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+        <title>student Fees</title>
+        <link href="html.css" rel="stylesheet">
+</head>
+<body >
+    <div class="topnav">
+        <h1>University</h1>
+        <a class="u1" href="http://localhost:8080/assignment_project/student_login.php">Logout</a>
+        <a class="u1" href="http://localhost:8080/assignment_project/profile.html">Profile</a>
+        <a class="u1" href="http://localhost:8080/assignment_project/ResultCard.html">Result Card</a>
+        <a class="u1" href="http://localhost:8080/assignment_project/Fees.html">Fees</a> 
+        <a class="u1" href="http://localhost:8080/assignment_project/Registeration.htmlhttp://localhost:8080/assignment_project/ResultCard.html">Registration Card</a>
+        <a class="u1" href="http://localhost:8080/assignment_project/student2pg.php">Dashboard</a> 
+    </div>
+    <div class="heading "><center><h1 >FEE SUBMITTION </h1></center> </div>
+        <div class="outer">
+            <form action="feeR.php" method="POST">
+                <label>ChallanNo</label>
+                    <input type="text" name="ChallanNo" placeholder="ChallanNo" />
+                <br>
+                <label>Description</label>
+                    <input type="text" name="Description" placeholder="Description" />
+                    <br>
+                <label>DueDate</label>
+                    <input type="text" name="DueDate" placeholder="DueDate" />
+                    <br>
+                    <label>AmountDue</label>
+                    <input type="text" name="AmountDue" placeholder="AmountDue" />
+                    <br>
+                <div class="button">
+                    <button type="submit">Submit</button>
+                    <br>
+                    <a href="feeretrive.php"><button type="button">Retrive Table</button></a>
+                    <br>
+                    <a href="feeD.php"><button type="button">Delete Record</button></a>
+                    <br>
+                    <a href="feeU.php"><button type="button">Update Record</button></a>
+                </div>
+            </form>
+    </div>
+</body>
+</html>

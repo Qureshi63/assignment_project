@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+        <style>
+       
+        </style>
+        <link href="html.css" rel="stylesheet">
+</head>
+<body class="profile.css">
+                <div class="topnav">
+                                <h1>University</h1>
+                                <a class="u1" href="http://localhost:8080/assignment_project/student_login.php">Logout</a>
+                                <a class="u1" href="http://localhost:8080/assignment_project/profile.html">Profile</a>
+                                <a class="u1" href="http://localhost:8080/assignment_project/ResultCard.html">Result Card</a>
+                                <a class="u1" href="http://localhost:8080/assignment_project/Fees.html">Fees</a> 
+                                <a class="u1" href="http://localhost:8080/assignment_project/Registration.html">Registration Card</a>
+                                <a class="u1" href="http://localhost:8080/assignment_project/student2pg.php">Dashboard</a> 
+                            </div>
+    <div class="heading">
+<center><strong><h1>Student Result Card</h1></strong></center>
+    </div>
+    <div>
+        <form action="profileR.php" method="POST">
+        <div>
+                <table>
+                        <tr>
+                        <th>RegisterationNumber</th>
+                        <td><input type="text" name="RegisterationNumber" placeholder="RegisterationNumber" /></td>
+                        </tr>
+                        <tr>
+                        <th>FullName</th>
+                        <td><input type="text" name="FullName" placeholder="FullName" /></td>
+                        </tr>
+                        <tr>
+                        <th>FatherName</th>
+                        <td><input type="text" name="FatherName" placeholder="FatherName" /></td>
+                        </tr>
+                        <tr>
+                        <th>Nationality</th>
+                        <td><input type="text" name="Nationality" placeholder="Nationality" /></td>
+                        </tr>
+                        <tr>
+                        <th>DateOfBirth</th>
+                        <td><input type="text" name="DateOfBirth" placeholder="DateOfBirth" /></td>
+                        </tr>
+                </table>
+                                </div>
+                                <div class="flex">
+                                    <table>
+                                            <tr>
+                                                    <th>EmailAddress</th>
+                                                    <td><input type="email" name="EmailAddress" placeholder="EmailAddress" /></td>
+                                            </tr>
+                                            <tr>
+                                                    <th>ContactNumber</th>
+                                                    <td><input type="text" name="ContactNumber" placeholder="ContactNumber" /></td>
+                                            </tr>
+                                            <tr>
+                                                    <th>ContactPerson</th>
+                                                    <td><input type="text" name="ContactPerson" placeholder="ContactPerson" /></td>
+                                            </tr>
+                            
+                                    </table>
+                                </div>
+                                <div>
+                                        <table>
+                                                    <tr>
+                                                                    <td><button type="submit">submit</button></td>
+                                                                    <td><a href="profileretrive.php"><button type="button">retrive</button></a></td>
+                                                                    <td><a href="profileD.php"><button type="button">Delete profile</button></a></td>
+                                                                    <td><a href="profileU.php"><button type="button">Update profile</button></a></td>
+
+
+                                                     </tr>
+                                        </table>
+                                </div>
+            </form>
+    </div>
+</body>
